@@ -17,11 +17,15 @@
     </h2>
 </main>
     </div>
+    <form method="POST" action="test.cgi">test</form>
+
     </p><input type="date" name="inputday"></p>
     
     <select name="example" size="3" multiple>
-        <option value="じゃがいも">じゃいも</option>
-        <option value="しゅんぎく">しゅんぎく</option>
+        <optgroup label="group 1">
+            <option value="じゃがいも">じゃいも</option>
+            <option value="しゅんぎく">しゅんぎく</option>
+        </optgroup>
     </select>
 
     <select name="example" size="3" multiple>
@@ -46,6 +50,7 @@
 
     <input type="number" name="kg">
 
+    <p><input type="submit" value="送信する"></p>
 
 <footer>
         近畿大学工学部情報学科教育情報システム研究室
